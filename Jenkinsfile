@@ -5,7 +5,7 @@ pipeline {
         stage('Clonar Repositório') {
             steps {
                 // Clonar o repositório do GitHub
-                git 'https://github.com/juoliveiraneto/repo-jenkins'
+                git 'https://github.com/FabioSouzaBR/exemplo'
             }
         }
 
